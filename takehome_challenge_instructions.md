@@ -1,7 +1,7 @@
 Boggle Project
 ==============
 
-AMENDMENTS TO ORIGINAL README
+Amendments to the Original ReadMe
 ===============
 
 Running
@@ -14,7 +14,9 @@ To start application, copy the full path of `index.ejs` into the browser.
 
 The JavaScript and CSS files can be found in the public folder.
 
-ORIGINAL README
+![boggle](Finished_Project.png)
+
+Original ReadMe 
 ===============
 
 Running
