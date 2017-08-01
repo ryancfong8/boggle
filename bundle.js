@@ -22565,12 +22565,29 @@ var Game = function (_React$Component) {
       }
     }
   }, {
+    key: 'calculateScore',
+    value: function calculateScore(num) {
+      if (num < 3) {
+        return 0;
+      } else if (num < 5) {
+        return 1;
+      } else if (num === 5) {
+        return 2;
+      } else if (num === 6) {
+        return 3;
+      } else if (num === 7) {
+        return 5;
+      } else {
+        return 11;
+      }
+    }
+  }, {
     key: 'handleSubmit',
     value: function handleSubmit(e) {
       e.preventDefault();
       if (this.state.currentWord.length > 0) {
         var played = this.state.playedWords;
-        played[this.state.currentWord] = this.state.currentWord.length;
+        played[this.state.currentWord] = this.calculateScore(this.state.currentWord.length);
         this.setState({
           playedWords: played,
           currentWord: "",

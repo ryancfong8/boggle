@@ -1,6 +1,22 @@
 Boggle Project
 ==============
 
+AMENDMENTS TO ORIGINAL README
+===============
+
+Running
+
+To run this project, run `npm install`
+
+Run `npm run webpack` or `webpack -w` if making changes.
+
+To start application, copy the full path of `index.ejs` into the browser.
+
+The JavaScript and CSS files can be found in the public folder.
+
+ORIGINAL README
+===============
+
 Running
 -------
 
